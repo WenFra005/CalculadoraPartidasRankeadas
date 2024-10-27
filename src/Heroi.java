@@ -4,12 +4,35 @@ public class Heroi {
     private EstatisticasHeroi estatisticasHeroi;
     private NivelHeroi nivelHeroi;
     
-    public Heroi(String nomeHeroi, EstatisticasHeroi estatisticasHeroi, NivelHeroi nivelHeroi) {
+    public Heroi(String nomeHeroi,int numeroVitoria, int numeroDerrota) {
         this.nomeHeroi = nomeHeroi;
-        this.estatisticasHeroi = estatisticasHeroi;
-        this.nivelHeroi = nivelHeroi;
+        this.estatisticasHeroi = new EstatisticasHeroi(numeroVitoria, numeroDerrota);
+        
     }
 
+    public String getNomeHeroi() {
+        return nomeHeroi;
+    }
+
+    public EstatisticasHeroi getEstatisticasHeroi() {
+        return estatisticasHeroi;
+    }
+
+    public NivelHeroi getNivelHeroi() {
+        return nivelHeroi;
+    }
+
+    public void atualizarNivel() {
+        
+    }
+
+    @Override
+    public String toString() {
+        return "O Herói " + nomeHeroi + " tem saldo de " + estatisticasHeroi.getSaldoVitoria() +
+        " e está no nível " + nivelHeroi.getNivel();
+    }
+
+    
     
 
 }

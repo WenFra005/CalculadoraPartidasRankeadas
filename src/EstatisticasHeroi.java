@@ -24,5 +24,9 @@ public class EstatisticasHeroi {
         this.numeroDerrota = numeroDerrota;
     }
 
+    public int getSaldoVitoria() {
+        return numeroVitoria - numeroDerrota;
+    }
+
     
 }
