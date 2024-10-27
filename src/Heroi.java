@@ -28,7 +28,8 @@ public class Heroi {
 
     @Override
     public String toString() {
-        return "O Herói " + nomeHeroi + " tem saldo de " + estatisticasHeroi.;
+        return "O Herói " + nomeHeroi + " tem saldo de " + estatisticasHeroi.getSaldoVitoria() +
+        " e está no nível " + nivelHeroi.getNivel();
     }
 
     
