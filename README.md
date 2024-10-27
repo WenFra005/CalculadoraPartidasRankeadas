@@ -1,18 +1,13 @@
-## Getting Started
+# Calculadora de Partidas Rankeadas
+Este projeto é uma calculdora de partidas Rankeadas
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Funcionalidades
+* Calcular o saldo com base nas vitórias e derrotas do herói
+* Classificar o nível do herói com base no saldo de vitórias em:
+    - **Ferro**
+    - **Bronze**
+    - **Prata**
+    - **Ouro**
+    - **Diamante**
+    - **Lendário**
+    - **Imortal**

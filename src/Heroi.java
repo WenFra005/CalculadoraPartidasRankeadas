@@ -32,7 +32,4 @@ public class Heroi {
         " e está no nível " + nivelHeroi.getNivel();
     }
 
-    
-    
-
 }
