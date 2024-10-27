@@ -1,5 +1,5 @@
-# Calculadora de Partidas Rankeadas
-Este projeto é uma calculdora de partidas Rankeadas
+# Calculadora de Partidas Ranqueadas
+Este projeto é uma calculadora de partidas Rankeadas feito em linguagem Java.
 
 ## Funcionalidades
 * Calcular o saldo com base nas vitórias e derrotas do herói
