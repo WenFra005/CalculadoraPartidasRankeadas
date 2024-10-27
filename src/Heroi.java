@@ -7,7 +7,7 @@ public class Heroi {
     public Heroi(String nomeHeroi,int numeroVitoria, int numeroDerrota) {
         this.nomeHeroi = nomeHeroi;
         this.estatisticasHeroi = new EstatisticasHeroi(numeroVitoria, numeroDerrota);
-        
+        this.nivelHeroi = new NivelHeroi(estatisticasHeroi.getSaldoVitoria());
     }
 
     public String getNomeHeroi() {
@@ -23,7 +23,7 @@ public class Heroi {
     }
 
     public void atualizarNivel() {
-        
+        this.nivelHeroi.atualizarNivel(estatisticasHeroi.getSaldoVitoria());
     }
 
     @Override
